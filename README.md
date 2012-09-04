@@ -4,7 +4,7 @@
 * Tested up to: 3.3.1
 * Stable tag: 2.0
 
-Add a temporary splash page to site. Useful for on-the-day front pages.
+Add a temporary splash page to site. Useful for on-the-day front pages for events.
 
 ## Description
 

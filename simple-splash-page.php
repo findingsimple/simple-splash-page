@@ -2,7 +2,8 @@
 /*
 Plugin Name: Simple Splash Page
 Plugin URI: http://plugins.findingsimple.com
-Description: Add a temporary splash page to site. Useful for on-the-day front pages.
+Description: Add a temporary splash page to your site. Useful for on-the-day 
+front pages for events.
 Version: 1.0
 Author: Finding Simple (Jason Conroy & Brent Shepherd)
 Author URI: http://findingsimple.com
