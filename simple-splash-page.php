@@ -64,6 +64,9 @@ class Simple_Splash_Page {
 		
 		add_action( 'template_redirect', array( __CLASS__, 'simple_splash_page_redirect' ) );
 		
+		add_filter( 'robots_txt', array( __CLASS__, 'simple_splash_page_robots') , 10, 2 );
+
+		
 	}
 	
 	/**
@@ -103,6 +106,21 @@ class Simple_Splash_Page {
 		
 		}
 				
+	}
+
+	/**
+	 * Disallow the /?redirect=false url in the robots txt to help with any seo issues
+	 *
+	 * @since 1.0
+	 */	
+	function simple_splash_page_robots( $output, $public ) {
+	
+		// Append rule
+		$output .= "Disallow: /?redirect=false\n";
+		
+		// Return modified output
+		return $output;
+		
 	}
 	
 	/**
