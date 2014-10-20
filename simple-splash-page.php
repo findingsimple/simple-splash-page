@@ -5,7 +5,7 @@ Plugin URI: http://plugins.findingsimple.com
 Description: Add a temporary splash page to your site. Useful for on-the-day 
 front pages for events.
 Version: 1.0
-Author: Finding Simple (Jason Conroy & Brent Shepherd)
+Author: Finding Simple
 Author URI: http://findingsimple.com
 License: GPL2
 */
@@ -36,7 +36,6 @@ if ( ! class_exists( 'Simple_Splash_Page' ) ) :
  * should not be initialized until after the plugins_loaded and after_setup_theme hooks.
  * However, it also needs to run early on the init hook.
  *
- * @author Jason Conroy <jason@findingsimple.com>
  * @package Simple Splash Page
  * @since 1.0
  */
